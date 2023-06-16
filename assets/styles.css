@@ -44,18 +44,19 @@ header li:hover {
 
 main {
     display: flex;
-    margin-top: 100px;
-    justify-content: space-around;
+    margin-top: 50px;
+    justify-content: center;
 }
 
 main .headshot {
     display: inline-block;
     margin-top: 100px;
+    width: 50%;
 }
 
 main img {
-    object-fit: cover;
-    width: 50%;
+    object-fit: contain;
+    width: 100%;
     height: auto;
     margin-left: 50px;
     border: 5px solid gray;
@@ -65,8 +66,40 @@ main .bio {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid black;
+    margin: 50px 0 0 0;
+}
+
+main .bio h2 {
+    margin: 10px 0;
+    font-size: 35px;
+}
+
+main .bio p {
+    margin: 10px 0;
+    width: 50%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 762px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    main img {
+        margin-left: 0;
+    }
+
+    main .bio {
+        margin: 0;
+    }
+
+    main .bio p {
+        width: 100%;
+    }
 }
