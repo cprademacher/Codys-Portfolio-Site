@@ -42,19 +42,19 @@ header li:hover {
     text-decoration: underline;
 }
 
-main {
+#about-me {
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0;
     justify-content: center;
 }
 
-main .headshot {
+#about-me .headshot {
     display: inline-block;
     margin-top: 100px;
     width: 50%;
 }
 
-main img {
+#about-me img {
     object-fit: contain;
     width: 100%;
     height: auto;
@@ -62,7 +62,7 @@ main img {
     border: 5px solid gray;
 }
 
-main .bio {
+#about-me .bio {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -72,34 +72,54 @@ main .bio {
     margin: 50px 0 0 0;
 }
 
-main .bio h2 {
+#about-me .bio h2 {
     margin: 10px 0;
     font-size: 35px;
 }
 
-main .bio p {
+#about-me .bio p {
     margin: 10px 0;
     width: 50%;
     font-size: 20px;
 }
 
+#portfolio {
+    width: 100%;
+    height: 1100px;
+    background-color: antiquewhite;
+}
+
+#contact {
+    width: 100%;
+    height: 1100px;
+    background-color: blue;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 762px) {
-    main {
+    #about-me {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0;
     }
 
-    main img {
+    #about-me img {
         margin-left: 0;
     }
 
-    main .bio {
+    #about-me .bio {
         margin: 0;
     }
 
-    main .bio p {
+    #about-me .bio p {
         width: 100%;
     }
 }
