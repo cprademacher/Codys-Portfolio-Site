@@ -164,7 +164,7 @@ header li:hover {
 /*Formats the section that houses the contact info*/
 .contact-card {
     width: 50%;
-    height: 400px
+    height: 400px;
     text-align: center;
     display: flex;
     flex-direction: column;

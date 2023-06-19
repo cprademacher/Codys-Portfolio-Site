@@ -13,12 +13,11 @@ Website for my portfolio
 I will install this project using GitHub pages to deploy the website to the internet.
 
 
-## Screenshots
-    
-    ![screenshot-1](assets/images/SS2.png)
+## Screenshots    
 
+![Screenshot-1](assets/images/SS1.png)
 
-    ![screenshot-2](assets/images/SS2.png)
+![Screenshot-2](assets/images/SS2.png)
 
 
 ## License
