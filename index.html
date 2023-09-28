@@ -1,92 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cody's Portfolio</title>
-    <link rel="stylesheet" href="./assets/styles.css">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
     <!-- The header includes the title of the page as well as the links to jump to sections below. -->
     <header>
-        <div class="header-container about-me">
-            <h1><a href="index.html">Cody Rademacher</a></h1>
-            <div class="header-list">
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact-section">Contact</a></li>
-                </ul>
-            </div>
+      <div class="header-container about-me">
+        <h1><a href="index.html">Cody Rademacher</a></h1>
+        <div class="header-list">
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </header>
 
     <main>
-        <!--This is the 'about me' section with a headshot and a description of who I am and my experience/goals.-->
-        <div id="about-me">
-            <div class="headshot">
-                <img src="./assets/images/IMG_1059.JPG" alt="headshot">
-            </div>
-
-            <div class="bio">
-                <h2>About Me</h2>
-                <p>My name is Cody Rademacher and I am training to become a full stack software engineer.  My professional career has been focused on sales for the last decade in both he SaaS industry as well as Real Estate.  I have always been interested in web development, but it has taken until now to take the leap and I am very excited for this career change!</p>
-            </div>
+      <!--This is the 'about me' section with a headshot and a description of who I am and my experience/goals.-->
+      <div id="about-me">
+        <div class="headshot">
+          <img src="./assets/images/IMG_1059.JPG" alt="headshot" />
         </div>
 
-
-        <!--The portfolio section will include clickable images/links to showcase my past projects-->
-        <div id="portfolio">
-            <div class="portfolio-header">
-                <h2>Portfolio</h2>
-            </div>
-
-            <div class="cards">
-                <card class="card-large">
-                    <h3>Apparel Inventory App</h3>
-                    <a href="https://ut-bros-apparel-0bcd7da3cb4b.herokuapp.com/api/category/1">
-                        <img src="./assets/images/InventoryScreenshot.png" alt="Inventory Screen Shot">
-                    </a>
-                </card>
-    
-                <card class="card-normal">
-                    <h3>Note Taker App</h3>
-                    <a href="https://radiant-castle-66177-9d47e8038c40.herokuapp.com/">
-                        <img src="./assets/images/NotetakerApp.png" alt="Notetaker Screen Shot">
-                    </a>
-                </card>
-    
-                <card class="card-normal">
-                    <h3>Dumble</h3>
-                    <a href="https://cprademacher.github.io/Dumble/">
-                        <img src="./assets/images/Dumble-Screenshot.png" alt="Dumble Screen Shot">
-                    </a>
-                </card>
-    
-                <card class="card-normal">
-                    <h3>Horiseon Project</h3>
-                    <a href="https://cprademacher.github.io/Horiseon-Website-Optimization/">
-                        <img src="./assets/images/Horiseon Screen Shot.png" alt="Horiseon Screen Shot">
-                    </a>
-                </card>
-    
-                <card class="card-normal">
-                    <h3>Horiseon Project</h3>
-                    <a href="https://cprademacher.github.io/Horiseon-Website-Optimization/">
-                        <img src="./assets/images/Horiseon Screen Shot.png" alt="Horiseon Screen Shot">
-                    </a>
-                </card>
-            </div>
+        <div class="bio">
+          <h2>About Me</h2>
+          <p>
+            My name is Cody Rademacher and I am training to become a full stack
+            software engineer. My professional career has been focused on sales
+            for the last decade in both he SaaS industry as well as Real Estate.
+            I have always been interested in web development, but it has taken
+            until now to take the leap and I am very excited for this career
+            change!
+          </p>
         </div>
-        <!--The contact section will include my name, number, email, and links to other valuable pages.-->
-        <div id="contact-section">
-            <div class="contact-card">
-                <h2>Contact Info:</h2>
-                <h3><span class="hide-when-small">Phone: </span>512.461.2129</h3>
-                <h3><span class="hide-when-small">Email: </span><a href="mailto:cprademacher36@gmail.com">cprademacher36@gmail.com</a></h3>
-                <h3><span class="hide-when-small">GitHub: </span><a href="https://github.com/cprademacher">https://github.com/cprademacher</a></h3>
-            </div>
+      </div>
+
+      <!--The portfolio section will include clickable images/links to showcase my past projects-->
+      <div id="portfolio">
+        <div class="portfolio-header">
+          <h2>Portfolio</h2>
         </div>
+
+        <div class="cards">
+          <card class="card-large">
+            <h3>Apparel Inventory App</h3>
+            <a
+              href="https://ut-bros-apparel-0bcd7da3cb4b.herokuapp.com/api/category/1"
+            >
+              <img
+                src="./assets/images/InventoryScreenshot.png"
+                alt="Inventory Screen Shot"
+              />
+            </a>
+          </card>
+
+          <card class="card-normal">
+            <h3>Note Taker App</h3>
+            <a href="https://radiant-castle-66177-9d47e8038c40.herokuapp.com/">
+              <img
+                src="./assets/images/NotetakerApp.png"
+                alt="Notetaker Screen Shot"
+              />
+            </a>
+          </card>
+
+          <card class="card-normal">
+            <h3>Dumble</h3>
+            <a href="https://cprademacher.github.io/Dumble/">
+              <img
+                src="./assets/images/Dumble-Screenshot.png"
+                alt="Dumble Screen Shot"
+              />
+            </a>
+          </card>
+
+          <card class="card-normal">
+            <h3>Horiseon Project</h3>
+            <a
+              href="https://cprademacher.github.io/Horiseon-Website-Optimization/"
+            >
+              <img
+                src="./assets/images/Horiseon Screen Shot.png"
+                alt="Horiseon Screen Shot"
+              />
+            </a>
+          </card>
+
+          <card class="card-normal">
+            <h3>Horiseon Project</h3>
+            <a
+              href="https://cprademacher.github.io/Horiseon-Website-Optimization/"
+            >
+              <img
+                src="./assets/images/Horiseon Screen Shot.png"
+                alt="Horiseon Screen Shot"
+              />
+            </a>
+          </card>
+        </div>
+      </div>
+      <!--The contact section will include my name, number, email, and links to other valuable pages.-->
+      <div id="contact-section">
+        <div class="contact-card">
+          <h2>Contact Info:</h2>
+          <h3><span class="hide-when-small">Phone: </span>512.461.2129</h3>
+          <h3>
+            <span class="hide-when-small">Email: </span
+            ><a href="mailto:cprademacher36@gmail.com"
+              >cprademacher36@gmail.com</a
+            >
+          </h3>
+          <h3>
+            <span class="hide-when-small">GitHub: </span
+            ><a href="https://github.com/cprademacher"
+              >https://github.com/cprademacher</a
+            >
+          </h3>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
