@@ -1,4 +1,5 @@
 # Codys-Portfolio-Site
+
 Website for my portfolio
 
 ## Description
@@ -12,13 +13,11 @@ Website for my portfolio
 
 I will install this project using GitHub pages to deploy the website to the internet.
 
-
-## Screenshots    
+## Screenshots
 
 ![Screenshot-1](assets/images/SS1.png)
 
-![Screenshot-2](assets/images/SS2.png)
-
+![Screenshot-2](assets/images/PortfolioScreenshot.png)
 
 ## License
 
