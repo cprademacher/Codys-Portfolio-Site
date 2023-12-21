@@ -1,238 +1,249 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 header .header-container {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: bisque;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: bisque;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
-    margin-left: 10px;
-    font-size: 36px;
-    font-weight: bold;
+  margin-left: 50px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 header ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
 }
 
 header a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 header li {
-    margin-right: 15px;
-    list-style: none;
+  margin-right: 15px;
+  list-style: none;
+  font-size: 1.2rem;
 }
 
 header li:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*Start of the 'about me' section*/
 #about-me {
-    display: flex;
-    margin: 30px 0 0 0;
-    justify-content: center;
+  display: flex;
+  margin: 30px 0 0 0;
+  justify-content: center;
 }
 
-
 #about-me .headshot {
-    display: inline-block;
-    margin-top: 100px;
-    width: 50%;
+  display: inline-block;
+  margin-top: 100px;
+  width: 40%;
 }
 
 /*Photo for the about me section*/
 #about-me img {
-    object-fit: contain;
-    width: 100%;
-    height: auto;
-    margin-left: 50px;
-    border: 5px solid gray;
+  object-fit: contain;
+  width: 90%;
+  height: auto;
+  margin-left: 50px;
+  border: 5px solid gray;
+  border-radius: 10px;
 }
 
 /*Bio for the about me section*/
+.bio li {
+    list-style: none;
+}
+
+
 #about-me .bio {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 50px 0 0 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 0 0 0;
 }
 
 #about-me .bio h2 {
-    margin: 10px 0;
-    font-size: 35px;
+  margin: 10px 0;
+  font-size: 35px;
 }
 
 #about-me .bio p {
-    margin: 10px 0;
-    width: 50%;
-    font-size: 20px;
+  margin: 10px 0;
+  width: 50%;
+  font-size: 20px;
 }
 
 /*Start of the portfolio section*/
 #portfolio {
-    width: 100%;
-    background-color: antiquewhite;
-    margin: 40px 0;
-    padding: 90px 0;
+  width: 100%;
+  background-color: antiquewhite;
+  margin: 40px 0;
+  padding: 90px 0;
 }
 
 .portfolio-header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-header h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 /*This div is to correctly display the project photos/links being displayed in the portfolio section*/
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards h3 {
-    text-align: center;
-    font-size: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
 /*Shows the 'cover image' of the clickable cards to go to deployed projects*/
 .cards img {
-    object-fit: fill;
-    width: 100%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 15px;
+  object-fit: fill;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 15px;
 }
 
 /*This card is to house the main project in the portfolio section*/
 .card-large {
-    width: 60%;
-    margin: 15px;
+  width: 60%;
+  margin: 15px;
 }
 
 /*Increase the size of the item being hovered over for emphasis*/
 .card-large:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
 /*This card is to house the other projects being shown in the portfolio section*/
 .card-normal {
-    width: 40%;
-    margin: 15px;
+  width: 40%;
+  margin: 15px;
 }
 
 /*Increase the size of the item being hovered over for emphasis*/
 .card-normal:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
 /*Sets how the contact section is displayed*/
 #contact-section {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Formats the section that houses the contact info*/
 .contact-card {
-    width: 50%;
-    height: 400px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-card h2, h3 {
-    margin: 10px 0;
+.contact-card h2,
+h3 {
+  margin: 10px 0;
 }
 
 .contact-card h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .contact-card h3 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /*Edits what is shown when the screen gets to 992px or smaller*/
 @media screen and (max-width: 992px) {
-    .hide-when-small {
-        display: none;
-    }
+  .hide-when-small {
+    display: none;
+  }
 }
 
 /*Edits what is shown when the screen gets to 762px or smaller*/
 @media screen and (max-width: 762px) {
-    header h1 {
-        font-size: 20px;
-    }
+  header h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+  }
 
-    #about-me {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
+  #about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 
-    #about-me img {
-        margin-left: 0;
-    }
+  #about-me img {
+    margin-left: 0;
+  }
 
-    #about-me .bio {
-        margin: 0;
-    }
+  #about-me .bio {
+    margin: 0;
+  }
 
-    #about-me .bio p {
-        width: 100%;
-    }
+  #about-me .bio p {
+    width: 100%;
+    font-size: 0.85rem;
+  }
 
-    .card-large {
-        width: 90%;
-    }
-    
-    .card-normal {
-        width: 90%;
-    }
+  .card-large {
+    width: 90%;
+  }
 
-    .contact-card h2 {
-        font-size: 25px;
-    }
+  .card-normal {
+    width: 90%;
+  }
 
-    .contact-card h3 {
-        font-size: 18px;
-    }
+  .contact-card h2 {
+    font-size: 25px;
+  }
 
-    .hide-when-small {
-        display: none;
-    }
+  .contact-card h3 {
+    font-size: 18px;
+  }
+
+  .hide-when-small {
+    display: none;
+  }
 }
