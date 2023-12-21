@@ -10,7 +10,7 @@
   <body>
     <!-- The header includes the title of the page as well as the links to jump to sections below. -->
     <header>
-      <div class="header-container about-me">
+      <div class="header-container">
         <h1><a href="index.html">Cody Rademacher</a></h1>
         <div class="header-list">
           <ul class="hide-when-small">
@@ -24,52 +24,56 @@
 
     <main>
       <!--This is the 'about me' section with a headshot and a description of who I am and my experience/goals.-->
-      <div id="about-me">
-        <div class="headshot">
-          <img src="./assets/images/Family-Photo.jpg" alt="headshot" />
-        </div>
-
-        <div class="bio">
-          <div class="about">
-            <h2>About Me</h2>
-            <p>
-              My name is Cody Rademacher and I am a full stack software
-              engineer. My professional career has been focused on sales for the
-              last decade in both he SaaS industry as well as Real Estate. I
-              have always been interested in web development, but it has taken
-              until now to take the leap and I am very excited for this career
-              change!
-            </p>
+      <div class="about-me">
+        <h1 id="about-me">About Me</h1>
+        <div id="introduction">
+          <div class="headshot">
+            <img src="./assets/images/Family-Photo.jpg" alt="headshot" />
           </div>
-        </div>
-        <div class="technical-skills">
-          <h2>Technical Skills</h2>
-          <ul>
-            <li>
-              <strong>Languages:</strong> JavaScript (React, Node.js), HTML, CSS
-            </li>
-            <li><strong>Database:</strong> MongoDB, MySQL</li>
-            <li><strong>Database:</strong> MongoDB, MySQL</li>
-            <li><strong>Version Control:</strong> Git/GitHub</li>
-            <li><strong>Tools:</strong> VS Code, Postman</li>
-          </ul>
-        </div>
-        <div class="why-software-engineering">
-          <h2>Why Software Engineering?</h2>
-          <p>
-            My journey into software engineering was sparked by a deep
-            fascination with crafting elegant solutions to complex problems. The
-            transition from software sales to coding has equipped me with a
-            unique skill set — a knack for understanding user needs, effective
-            communication, and a passion for creating impactful software.
-          </p>
+
+          <div class="bio">
+            <div class="about">
+              <h2>Introduction</h2>
+              <p>
+                Hello! I'm Cody Rademacher, a results-driven professional with a
+                proven track record in software sales and a graduate from the
+                University of Texas' rigorous Full-Stack Software Engineering
+                Bootcamp.
+              </p>
+            </div>
+
+            <div class="technical-skills">
+              <h2>Technical Skills</h2>
+              <ul>
+                <li>
+                  <strong>Languages:</strong> JavaScript (React, Node.js), HTML,
+                  CSS
+                </li>
+                <li><strong>Database:</strong> MongoDB, MySQL</li>
+                <li><strong>Database:</strong> MongoDB, MySQL</li>
+                <li><strong>Version Control:</strong> Git/GitHub</li>
+                <li><strong>Tools:</strong> VS Code, Postman</li>
+              </ul>
+            </div>
+            <div class="why-software-engineering">
+              <h2>Why Software Engineering?</h2>
+              <p>
+                My journey into software engineering was sparked by a deep
+                fascination with crafting elegant solutions to complex problems.
+                The transition from software sales to coding has equipped me
+                with a unique skill set — a knack for understanding user needs,
+                effective communication, and a passion for creating impactful
+                software.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
       <!--The portfolio section will include clickable images/links to showcase my past projects-->
       <div id="portfolio">
         <div class="portfolio-header">
-          <h2>Portfolio</h2>
+          <h1>Portfolio</h1>
         </div>
 
         <div class="cards">
@@ -107,7 +111,7 @@
       <!--The contact section will include my name, number, email, and links to other valuable pages.-->
       <div id="contact-section">
         <div class="contact-card">
-          <h2>Contact Info:</h2>
+          <h1>Contact Info:</h1>
           <h3><span class="hide-when-small">Phone: </span>512.461.2129</h3>
           <h3>
             <span class="hide-when-small">Email: </span
